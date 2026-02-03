@@ -1,0 +1,117 @@
+✅ Reusable Git Workflow (Add Local Files → GitHub)
+0️⃣ One-time setup
+
+Git installed
+
+Repo cloned locally
+
+You are inside the repo folder (code-snippets)
+
+1️⃣ Go to the repo root
+
+Always run Git commands from the repo root (where .git lives):
+
+cd ~/github/code-snippets
+
+
+Check:
+
+ls
+
+
+You should see:
+
+README.md  python  sql  R
+
+2️⃣ Copy / edit files locally
+
+Add .py, .sql, .R, etc. using:
+
+File Explorer
+
+VS Code
+
+Any editor
+
+Git does nothing yet.
+
+3️⃣ Check Git status
+git status
+
+
+Look for:
+
+Untracked files: (new files)
+
+or Changes not staged for commit: (edited files)
+
+4️⃣ Stage the files
+Stage everything (simple & safe)
+git add .
+
+Or stage a folder only
+git add python/
+
+
+⚠️ Windows may show:
+
+LF will be replaced by CRLF
+
+
+→ Warning only. Safe to ignore.
+
+5️⃣ Commit locally
+git commit -m "Describe what you added or changed"
+
+
+Good examples:
+
+Add Python sorting snippets
+
+Update SQL window function examples
+
+Refactor pandas merge utilities
+
+6️⃣ Push to GitHub
+git push
+
+
+Success looks like:
+
+xxxxxxx..yyyyyyy  main -> main
+
+
+PowerShell may still say NativeCommandError — ignore it if you see main -> main.
+
+7️⃣ Confirm (optional)
+git status
+
+
+Expected:
+
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
+🧠 Mental model (remember this)
+Edit files → git add → git commit → git push
+
+
+Nothing reaches GitHub until push.
+
+🧹 Optional (one-time, recommended)
+
+Create .gitattributes in repo root:
+
+*.py  text eol=lf
+*.sql text eol=lf
+*.R   text eol=lf
+
+
+This avoids Windows line-ending warnings forever.
+
+⭐ Ultra-short version (daily use)
+git status
+git add .
+git commit -m "your message"
+git push
