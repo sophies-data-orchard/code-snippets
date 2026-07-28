@@ -1,8 +1,8 @@
-\# Student Loan Analysis (My Contribution)
+# Student Loan Analysis (My Contribution)
 
 
 
-\## Overview
+## Overview
 
 This folder contains \*\*my individual contribution\*\* to a course project analyzing U.S. student loan data.
 
@@ -18,27 +18,27 @@ The files here represent \*\*my analysis pipeline and results\*\*, separate from
 
 
 
-\## Contents
+## Contents
 
-\- `project\\\_data\\\_preparation.html`
+- `project\\\_data\\\_preparation.html`
 
   Data cleaning, preprocessing, and feature construction.
 
 
 
-\- `project\\\_code\\\_R\\\_myPart.ipynb`
+- `project\\\_code\\\_R\\\_myPart.ipynb`
 
   My R-based analysis notebook, including modeling and interpretation.
 
 
 
-\- `project\\\_code\\\_R\\\_myPart.html`
+- `project\\\_code\\\_R\\\_myPart.html`
 
   Rendered HTML version of the notebook for easy viewing.
 
 
 
-\- `SourceFiles\\\_download\\\_instruction.pdf`
+- `SourceFiles\\\_download\\\_instruction.pdf`
 
   Instructions for downloading the original data sources used in this analysis.
 
@@ -48,13 +48,13 @@ The files here represent \*\*my analysis pipeline and results\*\*, separate from
 
 
 
-\## Notes
+## Notes
 
-\- This repository stores \*\*analysis artifacts and rendered outputs\*\* for reference.
+- This repository stores \*\*analysis artifacts and rendered outputs\*\* for reference.
 
-\- Raw data files are \*\*not included\*\* and should be downloaded separately using the provided instructions.
+- Raw data files are \*\*not included\*\* and should be downloaded separately using the provided instructions.
 
-\- The analysis reflects my individual approach and does not necessarily represent the full team’s final conclusions.
+- The analysis reflects my individual approach and does not necessarily represent the full team’s final conclusions.
 
 
 
@@ -62,11 +62,11 @@ The files here represent \*\*my analysis pipeline and results\*\*, separate from
 
 
 
-\## Tools \& Methods
+## Tools \& Methods
 
-\- R (data manipulation, modeling, visualization)
+- R (data manipulation, modeling, visualization)
 
-\- Exploratory data analysis
+- Exploratory data analysis
 
-\- Regression-based modeling
+- Regression-based modeling
 
