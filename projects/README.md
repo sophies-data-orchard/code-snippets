@@ -111,5 +111,4 @@ I enjoy solving practical business problems through data by combining analytical
 
 Thank you for visiting my portfolio. Feedback, discussions, and collaboration opportunities are always welcome.
 
-- **LinkedIn:** *Add your LinkedIn profile*
-- **GitHub:** *Add your GitHub profile*
+- **LinkedIn:** *www.linkedin.com/in/sygu380*
